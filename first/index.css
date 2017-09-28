@@ -1,0 +1,31 @@
+html * {
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+
+.left {
+    width: 150px;
+    height: calc(100vh - 80px);
+    float: left;
+    background: lightgray; 
+}
+
+.right {
+    width: 150px;
+    height: calc(100vh - 80px);
+    float: right;
+    background: lightgray; 
+}
+
+.footer {
+    height: 120px;
+    background: black;
+    position: relative;
+    top: calc(100vh - 200px);
+    z-index: -1;
+}

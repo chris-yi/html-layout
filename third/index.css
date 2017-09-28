@@ -1,0 +1,49 @@
+html * {
+    margin: 0;
+}
+
+.footer {
+    height: 110px;
+    background: #D8D8D8;
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    top: 10px;
+    background: #5790DC;
+    position: relative;
+}
+
+.paragraph {
+    height: 255px;
+    background: #FFFFFF;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 45px;
+}
+
+.blue {
+    height: 130px;
+    background: #5790DC;
+}
+
+.teal {
+    height: 130px;
+    background: #79DFC3
+}
+
+.green {
+    height: 130px;
+    background: #C2E691;
+}
+
+.yellow {
+    height: 130px;
+    background: #F6E652;
+}
